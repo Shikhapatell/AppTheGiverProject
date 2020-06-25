@@ -53,8 +53,24 @@ class ViewController: UIViewController {
         
     }
     
-}
+
+            
+          //THIS IS OUR CODE FOR THE CAMERA JOURNAL
+
+
+       //   class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+weak var displayImage: UIImageView!
+              
+              var imagePicker =  UIImagePickerController()
+              
+              //It may need to be sender : any
+
           
 
+    @IBAction func takePictureTapped(_ sender: UIButton) {
+    }
+    
+    // CHATBOT CODE
 
-
+}

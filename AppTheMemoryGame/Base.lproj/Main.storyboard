@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -524,6 +524,11 @@
                                 <color key="textColor" red="0.22099317499999999" green="0.29780981080000002" blue="0.30062492089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="362-z1-cGv">
+                                <rect key="frame" x="356" y="44" width="30" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="i"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6f3-hA-ksr"/>
@@ -532,7 +537,83 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QQe-D2-nGg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3065" y="1058"/>
+            <point key="canvasLocation" x="3063.768115942029" y="1057.3660714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k6z-4F-WsE">
+            <objects>
+                <viewController id="5aN-Sz-erP" customClass="ViewController" customModule="AppTheMemoryGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FdY-zg-CgW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTB-vC-4HY">
+                                <rect key="frame" x="46" y="420" width="61" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="green square" translatesAutoresizingMaskIntoConstraints="NO" id="Glz-9C-eO1">
+                                <rect key="frame" x="46" y="465" width="323" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43083206656045708" green="0.76836365824365493" blue="0.60329502403405133" alpha="0.52953767123287676" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insert a photo here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNJ-Ip-H6r">
+                                <rect key="frame" x="46" y="153" width="194" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuI-M1-7m1">
+                                <rect key="frame" x="46" y="357" width="136" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Choose from library">
+                                    <color key="titleColor" red="0.22099317499999999" green="0.29780981080000002" blue="0.30062492089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdZ-AK-97W">
+                                <rect key="frame" x="234" y="357" width="101" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Take a picture">
+                                    <color key="titleColor" red="0.22099317499999999" green="0.29780981080000002" blue="0.30062492089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePictureTapped:" destination="5aN-Sz-erP" eventType="touchUpInside" id="pxF-zp-uwA"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image8" translatesAutoresizingMaskIntoConstraints="NO" id="XqU-9j-cZi">
+                                <rect key="frame" x="155" y="217" width="105" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="green square" translatesAutoresizingMaskIntoConstraints="NO" id="h8j-wV-To4">
+                                <rect key="frame" x="46" y="658" width="323" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43083206660000001" green="0.76836365819999997" blue="0.60329502400000001" alpha="0.52953767119999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notes 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tha-9t-Mks">
+                                <rect key="frame" x="46" y="620" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="SBL-RQ-pEg"/>
+                    </view>
+                    <connections>
+                        <outlet property="displayImage" destination="XqU-9j-cZi" id="3IP-WL-GdT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m7B-8Y-RsO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3931.884057971015" y="1056.0267857142858"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pp7-OL-DJL">
@@ -1712,6 +1793,16 @@
             <point key="canvasLocation" x="3384" y="-475"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9fM-Np-t62"/>
+        <segue reference="N0h-Uy-cW4"/>
+        <segue reference="6mN-ys-Eat"/>
+        <segue reference="Wp8-d3-UpQ"/>
+        <segue reference="h33-6L-60y"/>
+        <segue reference="zkj-nz-idK"/>
+        <segue reference="cu5-bg-sR7"/>
+        <segue reference="5P8-Tb-wYD"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Book1" width="156" height="232"/>
         <image name="IMG_0261" width="1554" height="1254"/>
@@ -1736,14 +1827,4 @@
         <image name="green square" width="297" height="116"/>
         <image name="green square-1" width="297" height="116"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="9fM-Np-t62"/>
-        <segue reference="N0h-Uy-cW4"/>
-        <segue reference="6mN-ys-Eat"/>
-        <segue reference="pUI-MK-4Nz"/>
-        <segue reference="IMu-ou-uOe"/>
-        <segue reference="Lag-5k-hTC"/>
-        <segue reference="LOj-Gx-Nqu"/>
-        <segue reference="5P8-Tb-wYD"/>
-    </inferredMetricsTieBreakers>
 </document>
