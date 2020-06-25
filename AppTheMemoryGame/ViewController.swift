@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
- @IBOutlet weak var GifView: UIImageView!
+   
+    @IBOutlet weak var GifView: UIImageView!
+
     
-    @IBOutlet weak var GifView1: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
    
     }
-
+    func gifLoad() {
+        GifView.loadGif(name: "gifxcode")
+    }
+          
 
 }
 

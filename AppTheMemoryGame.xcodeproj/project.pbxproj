@@ -16,7 +16,6 @@
 		DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */; };
 		DBBA9CB324A2DA4F0027C4EE /* AppTheMemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CB224A2DA4F0027C4EE /* AppTheMemoryGameTests.swift */; };
 		DBBA9CBE24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */; };
-		DBBA9CDC24A417F00027C4EE /*  swiftgif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */; };
 		DBBA9CE024A41A670027C4EE /* gifxcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CDF24A41A670027C4EE /* gifxcode.gif */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		DBBA9CB924A2DA4F0027C4EE /* AppTheMemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTheMemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheMemoryGameUITests.swift; sourceTree = "<group>"; };
 		DBBA9CBF24A2DA4F0027C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " swiftgif.swift"; sourceTree = "<group>"; };
 		DBBA9CDF24A41A670027C4EE /* gifxcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifxcode.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 		DBBA9C9724A2DA4A0027C4EE /* AppTheMemoryGame */ = {
 			isa = PBXGroup;
 			children = (
-				DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */,
 				DBBA9C9824A2DA4A0027C4EE /* AppDelegate.swift */,
 				DBBA9C9A24A2DA4A0027C4EE /* SceneDelegate.swift */,
 				DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */,
@@ -270,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBA9CDC24A417F00027C4EE /*  swiftgif.swift in Sources */,
 				DBBA9C9D24A2DA4A0027C4EE /* ViewController.swift in Sources */,
 				DBBA9C9924A2DA4A0027C4EE /* AppDelegate.swift in Sources */,
 				DBBA9CA324A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodeld in Sources */,
